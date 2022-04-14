@@ -121,3 +121,29 @@ button.sign-up {
   color: #6f737C;
   margin-top: 8px;
 }
+
+.quote-section {
+  background: #E5E7EB;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 75px;
+}
+
+.quote {
+  color: #6e7681;
+  font: caption; 
+  font-size: 34px;
+  font-style: italic;
+  text-align: left;
+  width: 800px;
+}
+
+.author {
+  text-align: right;
+  font-size: 28px;
+  font-weight: bold;
+  padding-right: 50px;
+  width: 800px;
+}
