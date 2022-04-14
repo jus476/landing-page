@@ -7,6 +7,7 @@ body {
   font-family: Roboto, sans-serif;
 }
 
+/* Header section styling */
 .links {
   list-style: none;
   display: flex;
@@ -35,14 +36,7 @@ a {
   padding: 12px 100px;
 }
 
-/* .content {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 12px 100px;
-} */
-
+/* Site information styling */
 .site-info {
   background: #1F2937;
   padding: 100px;
@@ -92,4 +86,38 @@ button.sign-up {
 .summary {
   width: 400px;
   flex-shrink: 1;
+}
+
+/* Additional information section styling */
+.section-title {
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  margin: 32px;
+}
+
+.additional-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 100px;
+}
+
+.content {
+  width: 150px;
+  margin: 5px 25px;
+}
+
+.holder {
+  box-sizing: border-box;
+  border-radius: 20px;
+  border: 3px solid royalblue;
+  width: 150px;
+  height: 150px;
+}
+
+.text {
+  text-align: center;
+  color: #6f737C;
+  margin-top: 8px;
 }
