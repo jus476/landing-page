@@ -7,6 +7,13 @@ body {
   font-family: Roboto, sans-serif;
 }
 
+.header,
+.footer {
+  background: #1F2937;
+  display: flex;
+  align-items: center;
+}
+
 /* Header section styling */
 .links {
   list-style: none;
@@ -29,9 +36,6 @@ a {
 }
 
 .header {
-  background: #1F2937;
-  display: flex;
-  align-items: center;
   justify-content: space-between;
   padding: 12px 100px;
 }
@@ -178,4 +182,11 @@ button.sign-up {
 .pitch {
   font-size: 18px;
   color: #b6b8bd;
+}
+
+.footer {
+  color: #b6b8bd;
+  justify-content: center;
+  height: 100px;
+  font-size: 18px;
 }
