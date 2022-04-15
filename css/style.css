@@ -147,3 +147,35 @@ button.sign-up {
   padding-right: 50px;
   width: 800px;
 }
+
+/* Sign up section styling */
+.sign-up-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  box-sizing: border-box;
+  border-radius: 10px;
+  border: 3px solid rgb(78, 128, 238);
+  background: rgb(78, 128, 238);
+  margin: 100px 100px;
+  height: 150px;
+}
+
+.sign-up-section .sign-up {
+  background: rgb(78, 128, 238);
+  border: 2px solid white;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.description .heading {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+}
+
+.pitch {
+  font-size: 18px;
+  color: #b6b8bd;
+}
